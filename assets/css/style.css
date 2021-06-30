@@ -5,6 +5,12 @@ body {
 
 }
 
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+}
+
 header {
     /* apply styles to <header> */
     padding: 20px 35px;
@@ -25,14 +31,14 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: var(--primary-color);
     margin: 0;
 
 }
 
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var(--primary-color);
 
 }
 
@@ -61,7 +67,7 @@ header nav ul li a {
 }
 
 footer {
-    background: #fce138;
+    background: var(--primary-color);
     width: 100%;
     padding: 40px 35px;
     box-sizing: border-box;
